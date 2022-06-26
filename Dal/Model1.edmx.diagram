@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="959f7eb5e90c4f74961edf0d88e968f2" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="Shopper_DBModel.ActuallyPurchase_Tbl" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopper_DBModel.BehaviourPattern_Tbl" Width="1.5" PointX="3.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopper_DBModel.Customer_Tbl" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopper_DBModel.ForeignDate_Tbl" Width="1.5" PointX="6.375" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopper_DBModel.Product_Tbl" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopper_DBModel.ProductCategory_Tbl" Width="1.5" PointX="1.5" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopper_DBModel.PurchasePrognosis_Tbl" Width="1.5" PointX="11.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopper_DBModel.PurchasesHistory_Tbl" Width="1.875" PointX="6" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Shopper_DBModel.sysdiagram" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Shopper_DBModel.FK_ActuallyPurchase_Table_Product_Table" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopper_DBModel.FK_ActuallyPurchase_Table_PurchasePrognosis_Table" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopper_DBModel.FK_ActuallyPurchase_Table_PurchasesHistory_Table" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopper_DBModel.FK_BehaviourPattern_Table_Product_Table" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopper_DBModel.FK_BehaviourPattern_Tbl_Customer_Tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopper_DBModel.FK_PurchasesHistory_Table_Customer_Table" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopper_DBModel.FK_Product_Table_ProductCategory_Table" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopper_DBModel.FK_PurchasePrognosis_Table_Product_Table" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopper_DBModel.FK_ProductCategory_Table_ProductCategory_Table" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopper_DBModel.FK_PurchasePrognosis_Table_PurchasesHistory_Table" ManuallyRouted="false" />
+        <AssociationConnector Association="Shopper_DBModel.FK_BehaviourPattern_Tbl_Product_Tbl" />
+        <EntityTypeShape EntityType="Shopper_DBModel.HebrewDate_Tbl" Width="1.5" PointX="5.75" PointY="9.125" />
+        <AssociationConnector Association="Shopper_DBModel.FK_ForeignDate_Tbl_Timing_Tbl" />
+        <AssociationConnector Association="Shopper_DBModel.FK_PurchasesHistory_Tbl_Timing_Tbl" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

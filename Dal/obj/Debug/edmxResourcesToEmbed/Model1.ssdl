@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Shopper_DBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Shopper_DBModelStoreContainer">
+    <EntitySet Name="ActuallyPurchase_Tbl" EntityType="Shopper_DBModel.Store.ActuallyPurchase_Tbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BehaviourPattern_Tbl" EntityType="Shopper_DBModel.Store.BehaviourPattern_Tbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Customer_Tbl" EntityType="Shopper_DBModel.Store.Customer_Tbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ForeignDate_Tbl" EntityType="Shopper_DBModel.Store.ForeignDate_Tbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Product_Tbl" EntityType="Shopper_DBModel.Store.Product_Tbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProductCategory_Tbl" EntityType="Shopper_DBModel.Store.ProductCategory_Tbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchasePrognosis_Tbl" EntityType="Shopper_DBModel.Store.PurchasePrognosis_Tbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchasesHistory_Tbl" EntityType="Shopper_DBModel.Store.PurchasesHistory_Tbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="Shopper_DBModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HebrewDate_Tbl" EntityType="Shopper_DBModel.Store.HebrewDate_Tbl" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_ActuallyPurchase_Table_Product_Table" Association="Shopper_DBModel.Store.FK_ActuallyPurchase_Table_Product_Table">
+      <End Role="Product_Tbl" EntitySet="Product_Tbl" />
+      <End Role="ActuallyPurchase_Tbl" EntitySet="ActuallyPurchase_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ActuallyPurchase_Table_PurchasePrognosis_Table" Association="Shopper_DBModel.Store.FK_ActuallyPurchase_Table_PurchasePrognosis_Table">
+      <End Role="PurchasePrognosis_Tbl" EntitySet="PurchasePrognosis_Tbl" />
+      <End Role="ActuallyPurchase_Tbl" EntitySet="ActuallyPurchase_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ActuallyPurchase_Table_PurchasesHistory_Table" Association="Shopper_DBModel.Store.FK_ActuallyPurchase_Table_PurchasesHistory_Table">
+      <End Role="PurchasesHistory_Tbl" EntitySet="PurchasesHistory_Tbl" />
+      <End Role="ActuallyPurchase_Tbl" EntitySet="ActuallyPurchase_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BehaviourPattern_Table_Product_Table" Association="Shopper_DBModel.Store.FK_BehaviourPattern_Table_Product_Table">
+      <End Role="Product_Tbl" EntitySet="Product_Tbl" />
+      <End Role="BehaviourPattern_Tbl" EntitySet="BehaviourPattern_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BehaviourPattern_Tbl_Customer_Tbl" Association="Shopper_DBModel.Store.FK_BehaviourPattern_Tbl_Customer_Tbl">
+      <End Role="Customer_Tbl" EntitySet="Customer_Tbl" />
+      <End Role="BehaviourPattern_Tbl" EntitySet="BehaviourPattern_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchasesHistory_Table_Customer_Table" Association="Shopper_DBModel.Store.FK_PurchasesHistory_Table_Customer_Table">
+      <End Role="Customer_Tbl" EntitySet="Customer_Tbl" />
+      <End Role="PurchasesHistory_Tbl" EntitySet="PurchasesHistory_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_Table_ProductCategory_Table" Association="Shopper_DBModel.Store.FK_Product_Table_ProductCategory_Table">
+      <End Role="ProductCategory_Tbl" EntitySet="ProductCategory_Tbl" />
+      <End Role="Product_Tbl" EntitySet="Product_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchasePrognosis_Table_Product_Table" Association="Shopper_DBModel.Store.FK_PurchasePrognosis_Table_Product_Table">
+      <End Role="Product_Tbl" EntitySet="Product_Tbl" />
+      <End Role="PurchasePrognosis_Tbl" EntitySet="PurchasePrognosis_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductCategory_Table_ProductCategory_Table" Association="Shopper_DBModel.Store.FK_ProductCategory_Table_ProductCategory_Table">
+      <End Role="ProductCategory_Tbl" EntitySet="ProductCategory_Tbl" />
+      <End Role="ProductCategory_Tbl1" EntitySet="ProductCategory_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchasePrognosis_Table_PurchasesHistory_Table" Association="Shopper_DBModel.Store.FK_PurchasePrognosis_Table_PurchasesHistory_Table">
+      <End Role="PurchasesHistory_Tbl" EntitySet="PurchasesHistory_Tbl" />
+      <End Role="PurchasePrognosis_Tbl" EntitySet="PurchasePrognosis_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BehaviourPattern_Tbl_Product_Tbl" Association="Shopper_DBModel.Store.FK_BehaviourPattern_Tbl_Product_Tbl">
+      <End Role="Product_Tbl" EntitySet="Product_Tbl" />
+      <End Role="BehaviourPattern_Tbl" EntitySet="BehaviourPattern_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ForeignDate_Tbl_Timing_Tbl" Association="Shopper_DBModel.Store.FK_ForeignDate_Tbl_Timing_Tbl">
+      <End Role="HebrewDate_Tbl" EntitySet="HebrewDate_Tbl" />
+      <End Role="ForeignDate_Tbl" EntitySet="ForeignDate_Tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchasesHistory_Tbl_Timing_Tbl" Association="Shopper_DBModel.Store.FK_PurchasesHistory_Tbl_Timing_Tbl">
+      <End Role="HebrewDate_Tbl" EntitySet="HebrewDate_Tbl" />
+      <End Role="PurchasesHistory_Tbl" EntitySet="PurchasesHistory_Tbl" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ActuallyPurchase_Tbl">
+    <Key>
+      <PropertyRef Name="ActuallyPurchaseId" />
+    </Key>
+    <Property Name="ActuallyPurchaseId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PurchasesHistoryId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="int" Nullable="false" />
+    <Property Name="PurchasePrognosisId" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="BehaviourPattern_Tbl">
+    <Key>
+      <PropertyRef Name="BehaviourPatternId" />
+    </Key>
+    <Property Name="BehaviourPatternId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+    <Property Name="EveryXMonthsBuy" Type="int" Nullable="true" />
+    <Property Name="Amount" Type="int" Nullable="true" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="CustomerId" Type="int" Nullable="false" />
+    <Property Name="NameOfEvent" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="IsNewProduct" Type="bit" Nullable="true" />
+    <Property Name="TimesOfCancelation" Type="int" Nullable="true" />
+    <Property Name="TimesOfAmountChange" Type="int" Nullable="true" />
+    <Property Name="TimesNotFoundInPrognosis" Type="int" Nullable="true" />
+    <Property Name="XTimesOnMonthBuy" Type="int" Nullable="true" />
+    <Property Name="LastPurchaseDate" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Customer_Tbl">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="true" MaxLength="10" />
+    <Property Name="LastName" Type="nvarchar" Nullable="true" MaxLength="10" />
+    <Property Name="Password" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="Email" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ForeignDate_Tbl">
+    <Key>
+      <PropertyRef Name="ForeignDateId" />
+    </Key>
+    <Property Name="ForeignDateId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ForeignDate" Type="datetime" Nullable="false" />
+    <Property Name="HebrewDateId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product_Tbl">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProductCategoryId" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Image" Type="nvarchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ProductCategory_Tbl">
+    <Key>
+      <PropertyRef Name="ProductCategoryId" />
+    </Key>
+    <Property Name="ProductCategoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ParentProductCategoryId" Type="int" Nullable="true" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PurchasePrognosis_Tbl">
+    <Key>
+      <PropertyRef Name="PurchasePrognosisId" />
+    </Key>
+    <Property Name="PurchasePrognosisId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PurchasesHistoryId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PurchasesHistory_Tbl">
+    <Key>
+      <PropertyRef Name="PurchasesHistoryId" />
+    </Key>
+    <Property Name="PurchasesHistoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="int" Nullable="false" />
+    <Property Name="PurchaseDate" Type="datetime" Nullable="true" />
+    <Property Name="Description" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="BelongToCurrentYear" Type="bit" Nullable="true" />
+    <Property Name="HebrewDateId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" Nullable="true" />
+    <Property Name="definition" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="HebrewDate_Tbl">
+    <Key>
+      <PropertyRef Name="HebrewDateId" />
+    </Key>
+    <Property Name="HebrewDateId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Day" Type="int" Nullable="false" />
+    <Property Name="Month" Type="int" Nullable="false" />
+    <Property Name="Year" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_ActuallyPurchase_Table_Product_Table">
+    <End Role="Product_Tbl" Type="Shopper_DBModel.Store.Product_Tbl" Multiplicity="1" />
+    <End Role="ActuallyPurchase_Tbl" Type="Shopper_DBModel.Store.ActuallyPurchase_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product_Tbl">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="ActuallyPurchase_Tbl">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ActuallyPurchase_Table_PurchasePrognosis_Table">
+    <End Role="PurchasePrognosis_Tbl" Type="Shopper_DBModel.Store.PurchasePrognosis_Tbl" Multiplicity="0..1" />
+    <End Role="ActuallyPurchase_Tbl" Type="Shopper_DBModel.Store.ActuallyPurchase_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PurchasePrognosis_Tbl">
+        <PropertyRef Name="PurchasePrognosisId" />
+      </Principal>
+      <Dependent Role="ActuallyPurchase_Tbl">
+        <PropertyRef Name="PurchasePrognosisId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ActuallyPurchase_Table_PurchasesHistory_Table">
+    <End Role="PurchasesHistory_Tbl" Type="Shopper_DBModel.Store.PurchasesHistory_Tbl" Multiplicity="1" />
+    <End Role="ActuallyPurchase_Tbl" Type="Shopper_DBModel.Store.ActuallyPurchase_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PurchasesHistory_Tbl">
+        <PropertyRef Name="PurchasesHistoryId" />
+      </Principal>
+      <Dependent Role="ActuallyPurchase_Tbl">
+        <PropertyRef Name="PurchasesHistoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BehaviourPattern_Table_Product_Table">
+    <End Role="Product_Tbl" Type="Shopper_DBModel.Store.Product_Tbl" Multiplicity="1" />
+    <End Role="BehaviourPattern_Tbl" Type="Shopper_DBModel.Store.BehaviourPattern_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product_Tbl">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="BehaviourPattern_Tbl">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BehaviourPattern_Tbl_Customer_Tbl">
+    <End Role="Customer_Tbl" Type="Shopper_DBModel.Store.Customer_Tbl" Multiplicity="1" />
+    <End Role="BehaviourPattern_Tbl" Type="Shopper_DBModel.Store.BehaviourPattern_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer_Tbl">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="BehaviourPattern_Tbl">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchasesHistory_Table_Customer_Table">
+    <End Role="Customer_Tbl" Type="Shopper_DBModel.Store.Customer_Tbl" Multiplicity="1" />
+    <End Role="PurchasesHistory_Tbl" Type="Shopper_DBModel.Store.PurchasesHistory_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer_Tbl">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="PurchasesHistory_Tbl">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_Table_ProductCategory_Table">
+    <End Role="ProductCategory_Tbl" Type="Shopper_DBModel.Store.ProductCategory_Tbl" Multiplicity="1" />
+    <End Role="Product_Tbl" Type="Shopper_DBModel.Store.Product_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory_Tbl">
+        <PropertyRef Name="ProductCategoryId" />
+      </Principal>
+      <Dependent Role="Product_Tbl">
+        <PropertyRef Name="ProductCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchasePrognosis_Table_Product_Table">
+    <End Role="Product_Tbl" Type="Shopper_DBModel.Store.Product_Tbl" Multiplicity="1" />
+    <End Role="PurchasePrognosis_Tbl" Type="Shopper_DBModel.Store.PurchasePrognosis_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product_Tbl">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="PurchasePrognosis_Tbl">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductCategory_Table_ProductCategory_Table">
+    <End Role="ProductCategory_Tbl" Type="Shopper_DBModel.Store.ProductCategory_Tbl" Multiplicity="0..1" />
+    <End Role="ProductCategory_Tbl1" Type="Shopper_DBModel.Store.ProductCategory_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory_Tbl">
+        <PropertyRef Name="ProductCategoryId" />
+      </Principal>
+      <Dependent Role="ProductCategory_Tbl1">
+        <PropertyRef Name="ParentProductCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchasePrognosis_Table_PurchasesHistory_Table">
+    <End Role="PurchasesHistory_Tbl" Type="Shopper_DBModel.Store.PurchasesHistory_Tbl" Multiplicity="1" />
+    <End Role="PurchasePrognosis_Tbl" Type="Shopper_DBModel.Store.PurchasePrognosis_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PurchasesHistory_Tbl">
+        <PropertyRef Name="PurchasesHistoryId" />
+      </Principal>
+      <Dependent Role="PurchasePrognosis_Tbl">
+        <PropertyRef Name="PurchasesHistoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BehaviourPattern_Tbl_Product_Tbl">
+    <End Role="Product_Tbl" Type="Shopper_DBModel.Store.Product_Tbl" Multiplicity="1" />
+    <End Role="BehaviourPattern_Tbl" Type="Shopper_DBModel.Store.BehaviourPattern_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product_Tbl">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="BehaviourPattern_Tbl">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ForeignDate_Tbl_Timing_Tbl">
+    <End Role="HebrewDate_Tbl" Type="Shopper_DBModel.Store.HebrewDate_Tbl" Multiplicity="1" />
+    <End Role="ForeignDate_Tbl" Type="Shopper_DBModel.Store.ForeignDate_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HebrewDate_Tbl">
+        <PropertyRef Name="HebrewDateId" />
+      </Principal>
+      <Dependent Role="ForeignDate_Tbl">
+        <PropertyRef Name="HebrewDateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchasesHistory_Tbl_Timing_Tbl">
+    <End Role="HebrewDate_Tbl" Type="Shopper_DBModel.Store.HebrewDate_Tbl" Multiplicity="1" />
+    <End Role="PurchasesHistory_Tbl" Type="Shopper_DBModel.Store.PurchasesHistory_Tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HebrewDate_Tbl">
+        <PropertyRef Name="HebrewDateId" />
+      </Principal>
+      <Dependent Role="PurchasesHistory_Tbl">
+        <PropertyRef Name="HebrewDateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

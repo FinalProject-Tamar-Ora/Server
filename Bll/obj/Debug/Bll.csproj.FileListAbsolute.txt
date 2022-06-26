@@ -1,0 +1,54 @@
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Bll.dll.config
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Bll.dll
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Bll.pdb
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dal.dll
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dto.dll
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\AutoMapper.dll
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dal.pdb
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dal.dll.config
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dto.pdb
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dto.dll.config
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\AutoMapper.xml
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.csprojAssemblyReference.cache
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.csproj.CopyComplete
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.dll
+C:\Users\user1\Desktop\תיכנות יד תשפב\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.pdb
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Bll.dll.config
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Bll.dll
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Bll.pdb
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dal.dll
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dto.dll
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\AutoMapper.dll
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dal.pdb
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dal.dll.config
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dto.pdb
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dto.dll.config
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\AutoMapper.xml
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.csprojAssemblyReference.cache
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.csproj.CopyComplete
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.dll
+C:\Users\user1\Desktop\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.pdb
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Bll.dll.config
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Bll.dll
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Bll.pdb
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dal.dll
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dto.dll
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\AutoMapper.dll
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dal.pdb
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dal.dll.config
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dto.pdb
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\Dto.dll.config
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\bin\Debug\AutoMapper.xml
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.csprojAssemblyReference.cache
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.csproj.CopyComplete
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.dll
+C:\Users\user1\Desktop\gooood\פרויקט גמר- עורך קניות\Shopper\Bll\obj\Debug\Bll.pdb

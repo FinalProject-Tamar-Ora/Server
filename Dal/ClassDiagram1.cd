@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dal.Class1" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.Shopper_DBEntities1" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACBBAAAEAAAAAAAkAAgAAQAAAEAEAAAACA=</HashCode>
+      <FileName>Model1.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.ActuallyPurchase_Tbl" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAABBAAAEAAAAACAAABAAAAEAAAAAgAAAAA=</HashCode>
+      <FileName>ActuallyPurchase_Tbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.BehaviourPattern_Tbl" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAEAAAIAAEAAgAACACAAAQBQAAAACAAAAIIA=</HashCode>
+      <FileName>BehaviourPattern_Tbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.Customer_Tbl" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAABAAAAAAAAAAAAAAgABACAAAAAAAAAAg=</HashCode>
+      <FileName>Customer_Tbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.ForeignDate_Tbl" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAASAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>ForeignDate_Tbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.Product_Tbl" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAABAAAAAAAAAAQAgAAgAAAAAAACAAAAACA=</HashCode>
+      <FileName>Product_Tbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.ProductCategory_Tbl" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAIAAAAEAAAAAQAAAAAAAAAAAAKAAAAAAA=</HashCode>
+      <FileName>ProductCategory_Tbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.PurchasePrognosis_Tbl" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAABAAAEAAAAACAAABAAAAEAAAAAAAAACA=</HashCode>
+      <FileName>PurchasePrognosis_Tbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.PurchasesHistory_Tbl" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAChAAAAAIACAAAAAAAAABSEAAAAAAAAACA=</HashCode>
+      <FileName>PurchasesHistory_Tbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.sysdiagram" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAQAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sysdiagram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dal.Timing_Tbl" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAABAAAAAACAAQAAAAAAAAEAAEAAAAAAAA=</HashCode>
+      <FileName>Timing_Tbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Dal.Frequency" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAAAACAAAAAgACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Frequency.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

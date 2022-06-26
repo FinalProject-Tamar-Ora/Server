@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bll.ActuallyPurchaseDB" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ActuallyPurchaseDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.BehaviorPatternUpdator" Collapsed="true">
+    <Position X="3" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAQCAACBAAQAAAAAAAgIAAASAAAAABEAAAAACEAAAA=</HashCode>
+      <FileName>BehaviorPatternUpdator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.BehaviourPatternBuilder" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EBAQYgAQACARBCABBAagAKAAAEUAkgEBAAARAQAAAAA=</HashCode>
+      <FileName>BehaviourPatternBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.BehaviourPatternDB" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAQQAAgAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BehaviourPatternDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.BuildBasketDB" Collapsed="true">
+    <Position X="10" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAABAAAAEAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>BuildBasketDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.Class1" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.CustomerDB" Collapsed="true">
+    <Position X="3" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAQAAAAAAAAAAAAACAAAAAAIAAEAAAAAAA=</HashCode>
+      <FileName>CustomerDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.CustomerProduct" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EBAAgAAAAgARAAAwAIAAAAAAAAEAAJIAAAAAAIAAGAA=</HashCode>
+      <FileName>CustomerProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.DatesTableHandler" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAQAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAA=</HashCode>
+      <FileName>DatesTableHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.ForeignDateDB" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ForeignDateDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.GeneralFunctions" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAiAAAAAgAQAQAAAAIAEAAAAAAIAAQEAAABAACECAA=</HashCode>
+      <FileName>GeneralFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.HebrewDateDB" Collapsed="true">
+    <Position X="3" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAAAAAAQAAAAAAAAABAAAAAAAgAAAACAAAAABAA=</HashCode>
+      <FileName>HebrewDateDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.ProductDB" Collapsed="true">
+    <Position X="5.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAQAAgAIAAAwAGAAAAAAQAAAAAAAAgAAAA=</HashCode>
+      <FileName>ProductDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.PurchaseOffer" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAMQAQAAAQAQABAABAAAAQAACAAABACQAgAAAAAACCA=</HashCode>
+      <FileName>PurchaseOffer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.PurchasePrognosisDB" Collapsed="true">
+    <Position X="10" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAACQAAIAAAQAAAAAAAAAAAABAAAAAACAAAA=</HashCode>
+      <FileName>PurchasePrognosisDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.PurchasesHistoryDB" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAkAAAAAQAEQAAAAAAAAAAAAAAAAAIKAAAAAAAAAAAA=</HashCode>
+      <FileName>PurchasesHistoryDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bll.RequestResult" Collapsed="true">
+    <Position X="2.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAA=</HashCode>
+      <FileName>RequestResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

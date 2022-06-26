@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dto.ActuallyPurchase_Dto" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAgAAAAAAAAAASIAgBAQBAEAAAAAgAAAAA=</HashCode>
+      <FileName>ActuallyPurchase_Dto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.BehaviourPattern_Dto" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAEEAAIAAAIAAAACIAgAAQBQAAAACAAAAIIA=</HashCode>
+      <FileName>BehaviourPattern_Dto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.Class1" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.Customer_Dto" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAIAAAAQBACAAAAAAAAAAg=</HashCode>
+      <FileName>Customer_Dto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.ForeignDate_Dto" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAQAAAAAAAAAAAAIAAAAQAAAAAAAAAQAAAA=</HashCode>
+      <FileName>ForeignDate_Dto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.HebrewDate_Dto" Collapsed="true">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAJAAAAAAAAAAAAAQIAAAAQAAEAAAAAAAAAAA=</HashCode>
+      <FileName>HebrewDate_Dto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.Product_Dto" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAgAAAAAAAAAAQIAAAAQBAAAAACAAAAAAA=</HashCode>
+      <FileName>Product_Dto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.ProductCategory_Dto" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQIAAAAQAAAAAAKAAAAAAA=</HashCode>
+      <FileName>ProductCategory_Dto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.PurchasePrognosis_Dto" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAgAAAAAAAAAASIAgBAQBAEAAAAAAAAAAA=</HashCode>
+      <FileName>PurchasePrognosis_Dto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dto.PurchasesHistory_Dto" Collapsed="true">
+    <Position X="2" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAgAAAAAIAAAAAIAAAAQBCEAAAAAAAAAAA=</HashCode>
+      <FileName>PurchasesHistory_Dto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
